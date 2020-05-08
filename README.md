@@ -52,7 +52,8 @@ c:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Remot
 $cachedChanges = git diff --cached
 
 $banList = @(
-    "TODO"
+    "TODO",
+    "debugger"
 )
 
 foreach ($line in $cachedChanges) {
